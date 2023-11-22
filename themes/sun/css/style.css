@@ -27,10 +27,26 @@ body {
 
 .main {
     flex: 1 0 auto;
+    width: 80%;
+}
+
+.main p {
+    font-size: larger;
+    padding: 1em;
+}
+
+.main img { 
+    width: 500px;
+    height: auto; 
 }
 
 .header, .footer {
     flex: 0 0 auto;
+}
+
+.marginTop {
+    margin-top: 50px;
+    width: 500px;
 }
 
 /* Header */
@@ -44,6 +60,10 @@ body {
 
 .title, .logo {
     padding: 3em 3em 3em 0;
+}
+
+.logo a img{
+    width: 15% !important;
 }
 
 @media (max-width: 767px) {
@@ -105,6 +125,29 @@ img {
     max-width: 100%;
 }
 
+/* Arrows */
+
+.long-arrow-right{
+display: block;
+margin: 20px auto;
+width: 25px;
+height: 25px;
+border-top: 2px solid #000;
+border-left: 2px solid #000;
+transform: rotate(105deg);
+float: inline-end;
+}
+
+.long-arrow-right::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: black;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+}
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */

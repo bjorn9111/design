@@ -1,5 +1,5 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/grizzly_bear_by_hipfiregod_dg6ifv8-pre.jpg
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
