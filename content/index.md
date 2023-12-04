@@ -3,7 +3,7 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Startsida
 ==========================
 
 Välkommen till min webbsida!
@@ -16,4 +16,4 @@ Jag tenderar att värdera slutsatser drivna av logiska resonemang högt, och gil
 
 ![Picture of me](./assets/img/me.jpg "This is what I imagine people see when they look at me (on a good day)")
 
-**<div class="marginTop">Läs gärna om mina hobbies, kolla in övre högra hörnet! <span class="long-arrow-right"></span></div>**
+**<div class="margintop">Läs gärna om mina hobbies, kolla in övre högra hörnet! <span class="long-arrow-right"></span></div>**
