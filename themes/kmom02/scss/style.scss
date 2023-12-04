@@ -1,0 +1,145 @@
+@use '../../node_modules/normalize.css/normalize';
+@use 'variables';
+@use 'blockquotes';
+@use 'code';
+@use 'mobile.scss';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    color: variables.$font-color;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: variables.$background-color;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 80%;
+}
+
+.main p {
+    font-size: x-large;
+    padding: 1em;
+}
+
+.main img { 
+    width: 500px;
+    height: auto; 
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.marginTop {
+    margin-top: 50px;
+    width: 500px;
+}
+
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+.logo a img{
+    width: 15% !important;
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+}
+
+.footer a {
+    color: #222;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+/* Typografy */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #444;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Arrows */
+
+.long-arrow-right{
+display: block;
+margin: 20px auto;
+width: 25px;
+height: 25px;
+border-top: 2px solid #000;
+border-left: 2px solid #000;
+transform: rotate(105deg);
+float: inline-end;
+}
+
+.long-arrow-right::after{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 45px;
+    background-color: black;
+    transform: rotate(-45deg) translate(15px, 4px);
+    left: 0;
+    top: 0;
+}
