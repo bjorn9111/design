@@ -10,4 +10,16 @@
     .logo {
         max-width: 30% !important;
     }
+
+    .main {
+        width: 95%;
+
+        p, li, dd {
+            letter-spacing: 0.25px;
+            text-align: left;
+        }
+    }
+    // .logo a img{
+    //     width: 100% !important;
+    // }
 }

@@ -1,7 +1,4 @@
-/*!
- * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
+/* Typografy */
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -347,6 +344,124 @@ pre code {
   line-height: 1.4;
 }
 
+/* Header */
+.header, .site-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 240);
+}
+
+* {
+  font-family: "Libre Baskerville", serif;
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+
+p, td, th, li, dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Placement and color */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 224);
+}
+
+.main {
+  flex: 1 0 auto;
+  width: 80%;
+}
+.main p {
+  padding: 1em;
+  letter-spacing: 0.5px;
+}
+.main img {
+  width: 500px;
+  height: auto;
+}
+
+.header, .footer {
+  flex: 0 0 auto;
+}
+
+.margintop {
+  margin-top: 50px;
+  width: 500px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ol, ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Title */
+.title, .logo {
+  padding: 3em 3em 3em 0;
+}
+
+.logo {
+  flex: 0 0 15%;
+}
+
+/* Arrows */
+.long-arrow-right {
+  display: block;
+  margin: 20px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  transform: rotate(105deg);
+  float: inline-end;
+}
+
+.long-arrow-right::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 45px;
+  background-color: rgb(0, 0, 0);
+  transform: rotate(-45deg) translate(15px, 4px);
+  left: 0;
+  top: 0;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #222;
+  background-color: rgb(255, 255, 200);
+}
+.footer a {
+  color: #222;
+}
+.footer .social {
+  font-size: 2rem;
+}
+.footer p {
+  margin-right: 5%;
+}
+
 @media (max-width: 767px) {
   .title, .logo {
     padding: 1em 1em 1em 0 !important;
@@ -357,9 +472,20 @@ pre code {
   .logo {
     max-width: 30% !important;
   }
+  .main {
+    width: 95%;
+  }
+  .main p, .main li, .main dd {
+    letter-spacing: 0.25px;
+    text-align: left;
+  }
 }
 html {
   font-size: 100%;
+}
+
+html, body {
+  height: 100%;
 }
 
 p {
@@ -371,6 +497,10 @@ p {
     font-size: 112.5%;
   }
 }
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
 .fa,
 .fas,
 .far,
@@ -6479,134 +6609,4 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
-}
-
-/* Typografy */
-* {
-  font-family: "Libre Baskerville", serif;
-  box-sizing: border-box;
-  border: 0 none;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  line-height: 1.5rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1rem;
-  font-family: "Oswald", sans-serif;
-}
-
-p, td, th, li, dd {
-  text-align: justify;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-img {
-  max-width: 100%;
-}
-
-ol, ul {
-  padding-left: 1.5em;
-}
-
-.hidden {
-  display: none !important;
-}
-
-html, body {
-  height: 100%;
-}
-
-/* Placement and color */
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(255, 255, 224);
-}
-
-.main {
-  flex: 1 0 auto;
-  width: 80%;
-}
-.main p {
-  padding: 1em;
-  letter-spacing: 0.5px;
-}
-.main img {
-  width: 500px;
-  height: auto;
-}
-
-.header, .footer {
-  flex: 0 0 auto;
-}
-
-.margintop {
-  margin-top: 50px;
-  width: 500px;
-}
-
-/* Header */
-.header, .site-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(255, 255, 240);
-}
-
-/* Title */
-.title, .logo {
-  padding: 3em 3em 3em 0;
-}
-
-.logo a img {
-  width: 15% !important;
-}
-
-.title * {
-  color: #111;
-}
-
-.title p {
-  font-style: italic;
-}
-
-/* Footer */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid #222;
-  background-color: rgb(255, 255, 200);
-}
-
-.footer a {
-  color: #222;
-}
-
-.footer .social {
-  font-size: 2rem;
-}
-
-/* Arrows */
-.long-arrow-right {
-  display: block;
-  margin: 20px auto;
-  width: 25px;
-  height: 25px;
-  border-top: 2px solid #000;
-  border-left: 2px solid #000;
-  transform: rotate(105deg);
-  float: inline-end;
-}
-
-.long-arrow-right::after {
-  content: "";
-  display: block;
-  width: 2px;
-  height: 45px;
-  background-color: rgb(0, 0, 0);
-  transform: rotate(-45deg) translate(15px, 4px);
-  left: 0;
-  top: 0;
 }
