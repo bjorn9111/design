@@ -530,7 +530,7 @@ ol, ul {
 .previous {
   display: inline-block;
   background-color: rgb(255, 255, 200);
-  color: #555555;
+  color: #555;
   padding: 0.5rem 1rem;
   text-decoration: none;
   max-width: min-content;
@@ -538,7 +538,7 @@ ol, ul {
 
 .previous:hover {
   background-color: rgb(255, 255, 240);
-  color: black;
+  color: #111;
 }
 
 /* technology.scss small screens*/
