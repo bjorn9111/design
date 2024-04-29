@@ -1,0 +1,27 @@
+/* Flex-containers */
+@use '../variables';
+
+.flex-container-column-hidden {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    
+    li {
+        margin-bottom: 0.5rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

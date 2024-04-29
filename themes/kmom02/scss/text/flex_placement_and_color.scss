@@ -10,6 +10,8 @@ body {
 .main {
     flex: 1 0 auto;
     width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
     
     p {
         padding: 1em;
