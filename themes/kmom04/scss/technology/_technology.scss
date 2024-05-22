@@ -1,0 +1,64 @@
+/* technology.scss */
+.landingpage {
+    min-height: 100%;
+    display: grid;
+    grid: auto-flow / repeat(3, 1fr);
+    gap: 1em 1em;
+
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+        font-size: 500%;
+        letter-spacing: 1rem;
+        // margin: 1em;
+        padding: 1em;
+    }
+ 
+    .box.wide {
+        grid-column: span 2;
+    }
+
+    .box.ultra.wide {
+        grid-column: span 3;
+    }
+}
+
+.landingpage .box {
+    grid-column: span 1;
+    grid-row: span 1;
+    // border: 0.075rem solid #111;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    // box-shadow: variables.$background-color-dark 8px 24px;
+
+    a {
+        font-size: 2rem;
+        text-decoration: none;
+    }
+
+    // hr {
+    //     border-bottom: 1px solid #666;
+    // }
+}
+
+.previous {
+    display:inline-block;
+    // background-color: variables.$background-color-dark;
+    // color:#555;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    max-width: min-content;
+}
+
+// .previous:hover {
+//     background-color: variables.$background-color-light;
+//     color: #111;
+// }
+
+// .landingpage .box-for-01-colors { 
+//     grid-column: span 1;
+//     grid-row: span 1;
+//     padding: 2rem;
+//     margin: 2rem;
+//     min-height: 200px;
+// }

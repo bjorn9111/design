@@ -1,0 +1,18 @@
+/* Footer */
+// @use '../variables';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    // border-top: 1px solid #222;
+    // background-color: variables.$background-color-dark;
+    margin-top: 2rem;
+
+    .social {
+        font-size: 2rem;
+    }
+
+    p {
+        margin-right: 5%;
+    }
+}

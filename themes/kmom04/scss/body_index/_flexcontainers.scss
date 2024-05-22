@@ -1,0 +1,46 @@
+/* Flex-containers */
+// @use '../variables';
+
+body {
+    display: flex;
+    flex-direction: column;
+    // background-color: variables.$background-color;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+.margintop {
+    margin-top: 50px;
+    width: 500px;
+}
+
+.flex-container-column-hidden {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+    
+    li {
+        margin-bottom: 0.5em;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+
+    ol, ul {
+        margin: 0 0 1rem 1rem;
+    }
+}
+
+.flex-row-baseline {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

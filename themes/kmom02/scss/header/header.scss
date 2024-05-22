@@ -1,8 +1,0 @@
-/* Header */
-@use '../variables';
-
-.header, .site-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: variables.$background-color-light;
-}

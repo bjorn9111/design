@@ -1,0 +1,42 @@
+/* Typografy */
+// @use '../variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Oswald&display=swap');
+
+* {
+    font-family: 'Libre Baskerville', serif;
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    // color: variables.$font-color;
+    line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+p, td, th, li, dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    p, ul, ol {
+        padding: 1em;
+        letter-spacing: 0.5px;
+    }
+    
+    // img {
+    //     width: 500px;
+    //     height: auto;
+    // }
+}

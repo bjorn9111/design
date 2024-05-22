@@ -1,0 +1,93 @@
+@use '_variables_dark' as variables;
+
+/* Images */
+@media (prefers-color-scheme: dark) {
+    img {
+        filter: brightness(.8) contrast(1.2);
+    }
+
+    body {
+        font-weight: 350;
+    }
+}
+
+// body_index._typografy
+* {
+    color: variables.$font-color;
+}
+
+// body_index._flexcontainers
+body {
+    background-color: variables.$background-color;
+    // background: linear-gradient(to bottom, variables.$background-color, variables.$background-color-dark);
+}
+
+
+// footer._footer
+.footer {
+    // border-top: 1px solid #222;
+    // background-color: variables.$background-color-dark;
+    background: linear-gradient(to bottom, variables.$background-color, variables.$background-color-extra-dark);
+}
+
+// header._header
+.header, .site-header {
+    // background-color: variables.$background-color-light;
+    background: linear-gradient(to bottom, variables.$background-color-light, variables.$background-color);
+}
+
+// technology._technology
+.landingpage .box {
+    border: 0.075rem solid #111;
+    box-shadow: variables.$background-color-dark 8px 24px;
+
+    // hr {
+    //     border-bottom: 1px solid #666;
+    // }
+}
+
+.previous {
+    background-color: variables.$background-color-dark;
+    // color:#555;
+}
+
+.previous:hover {
+    background-color: variables.$background-color-light;
+    // color: #111;
+}
+
+.header .nav {
+    .active {
+        background: linear-gradient(to right, variables.$background-color-light, variables.$background-color-dark);
+        width: min-content;
+    }
+}
+
+// other
+code {
+    border: 1px solid variables.$font-color;
+    background: #121212;
+}
+
+pre {
+    border: 1px solid variables.$font-color;
+    background: #121212;
+}
+
+pre code {
+    background: transparent;
+}
+
+blockquote {
+    border-left: 0.5em solid #121212;
+}
+
+/* Arrows */
+.long-arrow-right{
+    border-top: 2px solid variables.$font-color;
+    border-left: 2px solid variables.$font-color;
+}
+
+.long-arrow-right::after{
+    background-color: variables.$font-color;
+}
