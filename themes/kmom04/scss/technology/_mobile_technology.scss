@@ -22,6 +22,10 @@
                 font-size: 1rem;
             }
         }
+
+        .center {
+            grid-column: span 1;
+        }
     }
 
     .flex-container-column-hidden {

@@ -24,3 +24,13 @@ h3, h4, h5, h6 {
         text-decoration: underline double;
     } 
 }
+
+.spreadsheet {
+    width: 100%;
+    // margin: auto;
+    min-height: 32em;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}

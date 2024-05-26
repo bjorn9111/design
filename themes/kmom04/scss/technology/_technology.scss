@@ -8,8 +8,8 @@
     h1 {
         grid-column: span 3;
         justify-self: center;
-        font-size: 500%;
-        letter-spacing: 1rem;
+        font-size: 150%;
+        letter-spacing: 0.5rem;
         // margin: 1em;
         padding: 1em;
     }
@@ -20,6 +20,13 @@
 
     .box.ultra.wide {
         grid-column: span 3;
+    }
+
+    .center {
+        grid-column: span 3;
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
     }
 }
 

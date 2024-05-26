@@ -1,5 +1,5 @@
 ---
-Logo: image/grizzly_bear_by_hipfiregod_dg6ifv8-pre.jpg
+Logo: image/grizzly_bear_by_hipfiregod_dg6ifv8-pre.jpg?w=250&h=250
 Tagline: My portfolio.
 Social:
     - title: Link till dagens väder globalt.

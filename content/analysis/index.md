@@ -13,11 +13,11 @@ Design Analysis
 </div>
 
 <div class="box ultra wide">
-<a href="%base_url%/technology/html">LOAD</a>
+<a href="%base_url%/analysis/02_load">LOAD</a>
 <hr>
 </div>
 
 <div class="box ultra wide">
-<a href="%base_url%/technology/javascript">DESIGN PRINCIPLES</a>
+<a href="%base_url%/analysis/03_design_principles">DESIGN PRINCIPLES</a>
 <hr>
 </div>
