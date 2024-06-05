@@ -30,24 +30,42 @@ Resultat
 ### Rådata
 
 <div class="embed-container">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_yF8WpA-WAJI4pu4Ynz5A0x3uG7Qv5lfmyOOJCSKrmY-hRBu6vxfp4YvhQv61sjjYkn5tkE0DNZTU/pubhtml?widget=true&amp;headers=false" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_yF8WpA-WAJI4pu4Ynz5A0x3uG7Qv5lfmyOOJCSKrmY-hRBu6vxfp4YvhQv61sjjYkn5tkE0DNZTU/pubhtml?widget=true&amp;headers=false" frameborder="0" allowfullscreen title="Raw data"></iframe>
 </div>
 
 ### James Clear blog
 
-![Screenshot of James Clear homepage](%assets_url%/img/James_Clear.png "Screenshot of James Clear homepage") {.center}
+<a href="%base_url%/image/James_Clear.png" target="_blank" aria-label="Screenshot of James Clear homepage">
+    <picture>
+        <source media="(min-width: 768px)" srcset="../image/James_Clear.png?width=50%&save-as=jpg">
+        <source media="(min-width: 376px)" srcset="../image/James_Clear.png?w=767&save-as=jpg">
+        <img src="../image/James_Clear.png?save-as=jpg" alt="Screenshot of James Clear homepage" class="center" title="Screenshot of James Clear homepage">
+    </picture>
+</a>
 
 Bra betyg med dator, 95 av 100 i snitt, medan mobil enhet ser något större förbättringspotential då betyget blir 84 av 100 i snitt. 
 
 ### Dana Shultz mat blog
 
-![Screenshot of Dana Shultz homepage](%assets_url%/img/minimalist_baker.png "Screenshot of Dana Shultz homepage") {.center}
+<a href="%base_url%/image/minimalist_baker.png" target="_blank" aria-label="Screenshot of Dana Shultz homepage">
+    <picture>
+        <source media="(min-width: 768px)" srcset="../image/minimalist_baker.png?width=50%&save-as=jpg">
+        <source media="(min-width: 376px)" srcset="../image/minimalist_baker.png?w=767&save-as=jpg">
+        <img src="../image/minimalist_baker.png?save-as=jpg" alt="Screenshot of Dana Shultz homepage" class="center" title="Screenshot of Dana Shultz homepage">
+    </picture>
+</a>
 
 Låga betyg i framförallt prestanda (betyg 31/64) och bästa metoder (betyg 57/56) för både mobila och desktop enheter. 
 
 ### Gala Darling självhjälp blog för kvinnor
 
-![Screenshot of Gala Darling homepage](%assets_url%/img/Gala_Darling.png "Screenshot of Gala Darling homepage") {.center}
+<a href="%base_url%/image/Gala_Darling.png" target="_blank" aria-label="Screenshot of Gala Darling homepage">
+    <picture>
+        <source media="(min-width: 768px)" srcset="../image/Gala_Darling.png?width=50%&save-as=jpg">
+        <source media="(min-width: 376px)" srcset="../image/Gala_Darling.png?w=767&save-as=jpg">
+        <img src="../image/Gala_Darling.png?save-as=jpg" alt="Screenshot of Gala Darling homepage" class="center" title="Screenshot of Gala Darling homepage">
+    </picture>
+</a>
 
 SEO('search engine optimization') har stora förbättringsmöjligheter på alla enheter (betyg 69), samt prestanda på mobila enheter (betyg 39).
 

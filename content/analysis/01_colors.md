@@ -30,7 +30,15 @@ Resultat
 
 ### James Clear blog
 
-![Screenshot of James Clear homepage](%assets_url%/img/James_Clear.png "Screenshot of James Clear homepage") {.center}
+<a href="%base_url%/image/James_Clear.png" target="_blank" aria-label="Screenshot of James Clear homepage">
+    <picture>
+        <source media="(min-width: 768px)" srcset="../image/James_Clear.png?width=50%&save-as=jpg">
+        <source media="(min-width: 376px)" srcset="../image/James_Clear.png?w=767&save-as=jpg">
+        <img src="../image/James_Clear.png?save-as=jpg" alt="Screenshot of James Clear homepage" class="center" title="Screenshot of James Clear homepage">
+    </picture>
+</a>
+
+<!-- ![Screenshot of James Clear homepage](%assets_url%/img/James_Clear.png "Screenshot of James Clear homepage") {.center} -->
 
 #### Färgpalett
 
@@ -51,7 +59,15 @@ Jag anser att färgval och typografi i denna webbplats motsvarar den efterfråga
 
 ### Dana Shultz mat blog
 
-![Screenshot of Dana Shultz homepage](%assets_url%/img/minimalist_baker.png "Screenshot of Dana Shultz homepage") {.center}
+<a href="%base_url%/image/minimalist_baker.png" target="_blank" aria-label="Screenshot of Dana Shultz homepage">
+    <picture>
+        <source media="(min-width: 768px)" srcset="../image/minimalist_baker.png?width=50%&save-as=jpg">
+        <source media="(min-width: 376px)" srcset="../image/minimalist_baker.png?w=767&save-as=jpg">
+        <img src="../image/minimalist_baker.png?save-as=jpg" alt="Screenshot of Dana Shultz homepage" class="center" title="Screenshot of Dana Shultz homepage">
+    </picture>
+</a>
+
+<!-- ![Screenshot of Dana Shultz homepage](%assets_url%/img/minimalist_baker.png "Screenshot of Dana Shultz homepage") {.center} -->
 
 #### Färgpalett
 
@@ -67,9 +83,9 @@ Vit färg värvas med en ljusgrå färg som även innehåller en gnutta orange. 
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; max-width: 50px; background-color: #F74639; color: #ddd; font-size: 0.7rem; text-align: center;">Bright red
-<td style="height: 50px; max-width: 50px; background-color: #b45026; color: #eee; font-size: 0.7rem; text-align: center;">Strong orange
-<td style="height: 50px; max-width: 50px; background-color: #003811; color: #eee; font-size: 0.7rem; text-align: center;">Very dark cyan - lime green
+<td style="height: 50px; max-width: 50px; background-color: #F74639; color: #111; font-size: 0.7rem; text-align: center;">Bright red
+<td style="height: 50px; max-width: 50px; background-color: #b45026; color: #fff; font-size: 0.7rem; text-align: center;">Strong orange
+<td style="height: 50px; max-width: 50px; background-color: #003811; color: #fff; font-size: 0.7rem; text-align: center;">Very dark cyan - lime green
 </tr>
 </table>
 I huvudinnehållet finns det dock lådor med mörkare accent färger, ofta länkar. Här blandas ljusröd, orange och mörkgröna toner. Dessa accentfärger används återhållsamt. Denna färgpalett följer ett komplement färgschema. 
@@ -85,7 +101,14 @@ Det monokromatiska färgschemat i bakgrunden, översta färgpaletten, hjälper o
 
 ### Gala Darling självhjälp blog för kvinnor
 
-![Screenshot of Gala Darling homepage](%assets_url%/img/Gala_Darling.png "Screenshot of Gala Darling homepage") {.center}
+<a href="%base_url%/image/Gala_Darling.png" target="_blank" aria-label="Screenshot of Gala Darling homepage">
+    <picture>
+        <source media="(min-width: 768px)" srcset="../image/Gala_Darling.png?width=50%&save-as=jpg">
+        <source media="(min-width: 376px)" srcset="../image/Gala_Darling.png?w=767&save-as=jpg">
+        <img src="../image/Gala_Darling.png?save-as=jpg" alt="Screenshot of Gala Darling homepage" class="center" title="Screenshot of Gala Darling homepage">
+    </picture>
+</a>
+<!-- ![Screenshot of Gala Darling homepage](%assets_url%/img/Gala_Darling.png "Screenshot of Gala Darling homepage") {.center} -->
 
 #### Färgpalett
 

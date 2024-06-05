@@ -95,3 +95,14 @@ blockquote {
 .long-arrow-right::after{
     background-color: variables.$font-color;
 }
+
+h1, h2 {
+    text-decoration: single;
+    text-decoration-line: underline;
+    text-decoration-color: variables.$background-color-dark;
+}
+
+body {
+    border-right: 10px solid variables.$background-color-dark;
+    height: 500px
+}

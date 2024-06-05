@@ -7,7 +7,7 @@
         <a href="{{ pages["analysis/index"].url  }}" class="previous">&laquo; Tillbaka</a>
         <div class="flex-row-baseline">
             <div class="flex-column-analysis-hidden">
-                <h4>Kolla in mina andra analyser!</h4>
+                <h2>Kolla in mina andra analyser!</h2>
                 <ul>
                 {% for page in pages("analysis") if (not page.hidden)  and (page.id!=current_page.id) %}
                     <li><a href="{{ page.url }}">{{ page.title }}</a></li>

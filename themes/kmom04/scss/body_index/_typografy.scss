@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+h2 {
+    margin-top: 1rem;
+}
+
 p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
@@ -39,4 +43,10 @@ p, td, th, li, dd {
     //     width: 500px;
     //     height: auto;
     // }
+}
+
+.title {
+    a {
+        text-decoration: none;
+    }
 }

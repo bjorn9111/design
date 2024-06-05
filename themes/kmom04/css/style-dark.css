@@ -449,7 +449,7 @@ p, td, th, li, dd {
 }
 
 /* Figures and images */
-img {
+img, embed, object, video {
   max-width: 100%;
 }
 
@@ -488,6 +488,24 @@ ol, ul {
   top: 0;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -511,8 +529,8 @@ ol, ul {
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
-  font-size: 500%;
-  letter-spacing: 1rem;
+  font-size: 150%;
+  letter-spacing: 0.5rem;
   padding: 1em;
 }
 .landingpage .box.wide {
@@ -520,6 +538,12 @@ ol, ul {
 }
 .landingpage .box.ultra.wide {
   grid-column: span 3;
+}
+.landingpage .center {
+  grid-column: span 3;
+  width: 50%;
+  margin: auto;
+  margin-top: 10%;
 }
 
 .landingpage .box {
@@ -559,6 +583,9 @@ ol, ul {
   .landingpage .box a {
     font-size: 1rem;
   }
+  .landingpage .center {
+    grid-column: span 1;
+  }
   .flex-container-column-hidden {
     display: none;
   }
@@ -587,9 +614,12 @@ h3, h4, h5, h6 {
 }
 
 .spreadsheet {
-  width: 50%;
-  margin: auto;
-  min-height: 20em;
+  width: 100%;
+  min-height: 32em;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 /* analysis.scss small screens*/
@@ -602,6 +632,9 @@ h3, h4, h5, h6 {
 @media (prefers-color-scheme: dark) {
   img {
     filter: brightness(0.8) contrast(1.2);
+  }
+  iframe {
+    filter: brightness(0.7) contrast(1.3);
   }
   body {
     font-weight: 350;

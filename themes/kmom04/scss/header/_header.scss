@@ -7,6 +7,9 @@
     // background-color: variables.$background-color-light;
 }
 
+.site-header {
+    min-width: 50%;
+}
 /* Title */
 
 .title, .logo {
@@ -15,6 +18,7 @@
 
 .logo {
     flex: 0 1 15em;
+    // max-width: 30%;
 }
 
 .nav {

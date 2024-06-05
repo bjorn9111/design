@@ -1,4 +1,8 @@
 @use '../../node_modules/normalize.css/normalize';
+@use 'mobile.scss';
+@use './body_index/typografy';
+@use './color/light/variables';
+@use './color/light/apply_colors';
 @use './other/blockquotes';
 @use './other/code';
 
@@ -6,7 +10,6 @@
 
 @use './body_index/flexcontainers';
 // @use './body_index/flex_placement_and_color';
-@use './body_index/typografy';
 
 @use './figures_tables/figure';
 
@@ -17,13 +20,10 @@
 @use './analysis/analysis';
 @use './analysis/analysis_mobile';
 
-
-@use './color/light/variables';
-@use './color/light/apply_colors';
-
-@use 'mobile.scss';
-
 @use './other/baseline';
+
+
+
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
